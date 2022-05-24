@@ -1,0 +1,27 @@
+/*Style Document*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.test{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 13px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+h2{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+h3{
+    font-size: 14px;
+}
+
