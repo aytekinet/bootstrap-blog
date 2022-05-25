@@ -55,7 +55,44 @@ header .social-media .fa-brands {
 }
 
 header .menu-area {
-    height: 70px;
+    height: 66px;
     width: 100%;
-    background-color: red;
+    padding-top: 22px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+.nav-menu li {
+    float: left;
+    display: table;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 8px;
+}
+
+.nav-menu li:nth-last-child() {
+    margin-right: 0px;
+}
+
+.nav-menu li a {
+    display: table-cell;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-menu li a:hover {
+    background-color: #7ac1ff;
+    color: #353c42;
+}
+
+.nav-menu li .active {
+    background-color: #7ac1ff;
+    color: #353c42;
 }
