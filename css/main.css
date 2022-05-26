@@ -128,3 +128,46 @@ header .menu-area {
 .search-quick-button .badge:hover {
     background-color: #6c7578;
 }
+
+
+/* Slide Area */
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .slide-image {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.owl-carousel .slide-image img {
+    border-radius: 10px;
+}
+
+.owl-carousel .owl-nav {
+    text-align: right;
+    position: absolute;
+    z-index: 99;
+    bottom: 35px;
+    right: 10px;
+}
+
+.owl-carousel .owl-next .sbutton,
+.owl-prev .sbutton {
+    color: #ffffff;
+    opacity: 0.5;
+    margin: 0px 5px;
+    font-size: 19px;
+}
+
+.owl-carousel .owl-next .sbutton:hover,
+.owl-prev .sbutton:hover {
+    opacity: 1;
+}
+
+.owl-carousel .owl-next .sbutton:focus,
+.owl-prev .sbutton:focus {
+    outline: none;
+}
