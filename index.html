@@ -123,13 +123,13 @@
             <!-- Set up your HTML -->
             <div class="owl-carousel">
               <div class="slide-image">
-                <img src="https://picsum.photos/1070/623?random=1">
+                <img src="https://picsum.photos/1070/623?random=1" />
               </div>
               <div class="slide-image">
-                <img src="https://picsum.photos/1070/623?random=2">
+                <img src="https://picsum.photos/1070/623?random=2" />
               </div>
               <div class="slide-image">
-                <img src="https://picsum.photos/1070/623?random=3">
+                <img src="https://picsum.photos/1070/623?random=3" />
               </div>
             </div>
           </div>
@@ -137,11 +137,35 @@
       </div>
     </section>
     <!--Slider Area END-->
+    <!--Blog Text-->
+    <section class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center py-4">
+            <h1 class="content-title">Son Eklenen Blog Yazıları</h1>
+          </div>
+          <div class="col-md-4">
+            <h2>Blog Yazı Başlığı</h2>
+            <h3>Kısa konu anlatım metni buraya gelecek..</h3>
+            <div class="main-img-container">
+              <img src="img/post-image/post-image-1.jpg" alt="Laravel">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+              Unde nam molestias impedit soluta? Repudiandae, nam <br>fde eos autem explicabo commodi omnis quo <br>
+              suscipit saepe vitae.</p>
+          </div>
+          <div class="col-md-4">2</div>
+          <div class="col-md-4">3</div>
+        </div>
+      </div>
+    </section>
+    <!--Blog Text End-->
 
     <!--Bootstrap SCRIPT-->
-
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!--Jquery SCRIPT-->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Owl Slider SCRIPT-->
     <script src="owl/owl.carousel.min.js"></script>
     <script>
       $(".owl-carousel").owlCarousel({
@@ -153,7 +177,10 @@
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
-        navText: ['<i class="sbutton fa-solid fa-circle-chevron-left"></i>','<i class="sbutton fa-solid fa-circle-chevron-right"></i>']
+        navText: [
+          '<i class="sbutton fa-solid fa-circle-chevron-left"></i>',
+          '<i class="sbutton fa-solid fa-circle-chevron-right"></i>',
+        ],
       });
     </script>
   </body>

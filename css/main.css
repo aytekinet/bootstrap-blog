@@ -109,6 +109,7 @@ header .menu-area {
 }
 
 .search-quick-button {
+    min-height: 185px;
     height: auto;
     width: 100%;
     background-color: #485156;
@@ -170,4 +171,35 @@ header .menu-area {
 .owl-carousel .owl-next .sbutton:focus,
 .owl-prev .sbutton:focus {
     outline: none;
+}
+
+
+/*Content title*/
+
+.content-title {
+    /*tüm satırı kaplamaması için*/
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.content-title::after {
+    content: '';
+    position: absolute;
+    background-color: #7ac1ff;
+    height: 3px;
+    width: 80%;
+    bottom: 0px;
+    left: 15px;
+}
+
+
+/* Blog Posts */
+
+.main-img-container {
+    width: 100%;
+}
+
+.main-img-container .img {
+    width: 100%;
 }
