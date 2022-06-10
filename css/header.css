@@ -1,0 +1,58 @@
+.test {
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: blue;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* Header Section */
+
+header {
+    height: 120px;
+    background-color: #353c42;
+    border-bottom: 4px solid #7ac1ff;
+}
+
+header .logo {
+    padding-top: 45px;
+}
+
+header .social-media {
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+header .social-media .fa-brands {
+    color: #7ac1ff;
+    font-size: 18px;
+    margin: 0px 8px;
+}
+
+header .menu-area {
+    height: 66px;
+    width: 100%;
+    padding-top: 22px;
+}

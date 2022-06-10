@@ -1,0 +1,16 @@
+.main-img-container {
+    width: 100%;
+}
+
+.main-img-container .img {
+    width: 100%;
+}
+
+.main-img-container img {
+    width: 100%;
+}
+
+.main-text-container .container-text,
+p {
+    padding: 0px 10px;
+}
