@@ -194,9 +194,12 @@ header .menu-area {
     left: 15px;
 }
 
-.light-open {
-    margin-top: 15px;
+.blue-light {
     background-color: #eef7ff;
+}
+
+.gray-light {
+    background-color: #efefef;
 }
 
 
