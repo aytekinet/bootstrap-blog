@@ -26,6 +26,7 @@ h2 {
 
 h3 {
     font-size: 14px;
+    font-weight: 600;
 }
 
 
@@ -193,6 +194,11 @@ header .menu-area {
     left: 15px;
 }
 
+.light-open {
+    margin-top: 15px;
+    background-color: #eef7ff;
+}
+
 
 /* Blog Posts */
 
@@ -202,4 +208,13 @@ header .menu-area {
 
 .main-img-container .img {
     width: 100%;
+}
+
+.main-img-container img {
+    width: 100%;
+}
+
+.main-text-container .container-text,
+p {
+    padding: 0px 10px;
 }
