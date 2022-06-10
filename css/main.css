@@ -221,3 +221,18 @@ header .menu-area {
 p {
     padding: 0px 10px;
 }
+
+
+/* Footer */
+
+.footer-area {
+    background-color: #353c42;
+    height: 60px;
+}
+
+.footer-area .text-area {
+    color: #FFFFFF;
+    line-height: 60px;
+    text-align: center;
+    background: url("../img/footer-logo.png") no-repeat right;
+}
