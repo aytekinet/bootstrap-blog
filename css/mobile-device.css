@@ -3,7 +3,7 @@
 @media (max-width: 575.98px) {
     header {
         height: auto;
-        padding: 0;
+        padding-bottom: 15px;
     }
     header .logo {
         text-align: center;
@@ -15,11 +15,12 @@
     }
     .mobile-menu {
         float: right;
-        width: 50% !important;
+        display: inline-block;
         text-align: right;
         color: #7ac1ff;
         font-size: 1.6rem;
         padding-top: 21px;
+        padding-left: 30px;
     }
     .menu-area {
         position: fixed;
@@ -52,5 +53,23 @@
     }
     .menu-area .nav-menu li:first-child a:hover {
         background-color: transparent;
+    }
+    #searchBar {
+        display: none;
+        margin-bottom: 30px;
+    }
+    .slider-area {
+        margin-top: 30px !important;
+    }
+    .footer-area {
+        height: auto;
+    }
+    .footer-area .text-area {
+        height: 85px;
+        background-position: center 45px;
+        background-size: 40px;
+    }
+    .logo {
+        padding-top: 30px !important;
     }
 }
