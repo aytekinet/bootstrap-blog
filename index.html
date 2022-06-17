@@ -38,9 +38,14 @@
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-github"></i>
                     </div>
-                    <nav class="menu-area">
+                    <div class="mobile-menu d-md-none">
+                        <a id="openMenu"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <nav class="menu-area" id="mainMenu">
                         <ul class="nav-menu">
-                            <li><a href="index.html" class="active">ANASAYFA</a></li>
+                            <li class="d-md-none">
+                                <a id="closeMenu"><i class="fa-solid fa-xmark"></i></a></li>
+                            <li><a href="index.html">ANASAYFA</a></li>
                             <li><a href="#">HAKKIMDA</a></li>
                             <li><a href="#">VİDEOLAR</a></li>
                             <li><a href="#">BLOG</a></li>
@@ -282,6 +287,16 @@
           '<i class="sbutton fa-solid fa-circle-chevron-left"></i>',
           '<i class="sbutton fa-solid fa-circle-chevron-right"></i>',
         ],
+      });
+        
+      $("#openMenu").click(function(){
+        $("#mainMenu").show();
+        
+      });
+
+      $("#closeMenu").click(function() {
+        $("#mainMenu").hide();
+
       });
     </script>
   </body>

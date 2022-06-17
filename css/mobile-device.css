@@ -1,0 +1,56 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    header {
+        height: auto;
+        padding: 0;
+    }
+    header .logo {
+        text-align: center;
+    }
+    .social-media {
+        text-align: left !important;
+        width: 50% !important;
+        float: left;
+    }
+    .mobile-menu {
+        float: right;
+        width: 50% !important;
+        text-align: right;
+        color: #7ac1ff;
+        font-size: 1.6rem;
+        padding-top: 21px;
+    }
+    .menu-area {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #353c42;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 100;
+        display: none;
+    }
+    .menu-area .nav-menu {
+        width: 100%;
+    }
+    .menu-area .nav-menu li {
+        float: none;
+        margin: auto;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu-area .nav-menu li:first-child {
+        text-align: right;
+        color: #7ac1ff;
+        font-size: 25px;
+    }
+    .menu-area .nav-menu li:first-child a {
+        width: 50px;
+    }
+    .menu-area .nav-menu li:first-child a:hover {
+        background-color: transparent;
+    }
+}
