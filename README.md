@@ -1,5 +1,6 @@
 # bootstrap-blog
 Bootstrap ile oluşturduğum kişisel blog projesi
 
-[My image](aytekinet.github.com/bootstrap-blog/img/logo.png)
+![preview](https://github.com/aytekinet/bootstrap-blog/blob/main/img/logo.png)
+
 
